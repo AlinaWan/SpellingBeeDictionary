@@ -10,8 +10,10 @@ This repository contains a curated list of words which appear in the Roblox game
 * This repository is **not affiliated** with Roblox Corporation.
 * The word list is compiled for educational, analytical, and personal use.
 * The word list is compiled by [AlinaWan](https://github.com/AlinaWan) and contributors.
+* Some words were borrowed from the [*Spelling Bee page*](https://roblox.fandom.com/wiki/Bean%27s_Can/Spelling_Bee!) on the [Roblox Wiki](https://roblox.fandom.com/wiki/Roblox_Wiki), with credit to its original contributors.
 > [!WARNING]
-> Sharing or distributing the word list is technically a breach of Spelling Bee’s Terms of Service. Use this resource responsibly and at your own risk.
+> Sharing or distributing the word list is technically a breach of Spelling Bee’s Terms of Service and may result in penalties such as game bans.
+> We are **not responsible** for any consequences resulting from your use of the word list. Use at your own risk.
 
 ---
 
