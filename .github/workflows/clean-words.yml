@@ -19,12 +19,15 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      - name: Remove duplicates and sort words.txt
+      - name: Clean, deduplicate, and sort words.txt
         run: |
-          sort -u words.txt > words.tmp
+          # Convert to lowercase, remove empty lines, sort uniquely
+          tr '[:upper:]' '[:lower:]' < words.txt | grep -v '^\s*$' | sort -u > words.tmp
+
+          # Only update if the file changed
           if ! cmp -s words.txt words.tmp; then
             mv words.tmp words.txt
-            echo "Words list cleaned and sorted."
+            echo "Words list cleaned, lowercased, and sorted."
           else
             echo "No changes needed."
             rm words.tmp
@@ -33,7 +36,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Cleaned and sorted words.txt [skip ci]"
+          commit_message: "Cleaned, deduplicated, and lowercased words.txt [skip ci]"
           commit_user_name: github-actions
           commit_user_email: github-actions@github.com
           file_pattern: words.txt
