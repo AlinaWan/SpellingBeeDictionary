@@ -33,7 +33,7 @@ jobs:
       - name: Commit and push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Cleaned and sorted words.txt"
+          commit_message: "Cleaned and sorted words.txt [skip ci]"
           commit_user_name: github-actions
           commit_user_email: github-actions@github.com
           file_pattern: words.txt
