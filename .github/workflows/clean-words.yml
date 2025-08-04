@@ -1,0 +1,39 @@
+name: Clean Words List
+
+on:
+  push:
+    paths:
+      - words.txt
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Remove duplicates and sort words.txt
+        run: |
+          sort -u words.txt > words.tmp
+          if ! cmp -s words.txt words.tmp; then
+            mv words.tmp words.txt
+            echo "Words list cleaned and sorted."
+          else
+            echo "No changes needed."
+            rm words.tmp
+          fi
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Cleaned and sorted words.txt"
+          commit_user_name: github-actions
+          commit_user_email: github-actions@github.com
+          file_pattern: words.txt
