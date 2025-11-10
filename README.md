@@ -15,7 +15,7 @@ This repository contains a curated list of words which appear in the Roblox game
 * The word list includes words which appear in the Roblox game [*Spelling Bee*](https://www.roblox.com/games/17590362521).
 * This repository is **not affiliated** with Roblox Corporation.
 * The word list is compiled for educational, analytical, and personal use.
-* The word list is compiled by [AlinaWan](https://github.com/AlinaWan) and contributors.
+* The list was collaboratively compiled by [AlinaWan](https://github.com/AlinaWan), community contributors, random players who shared verified words, and entries referenced from the [*Spelling Bee page*](https://roblox.fandom.com/wiki/Bean%27s_Can/Spelling_Bee!) on the [Roblox Wiki](https://roblox.fandom.com/wiki/Roblox_Wiki).
 * Some words were borrowed from the [*Spelling Bee page*](https://roblox.fandom.com/wiki/Bean%27s_Can/Spelling_Bee!) on the [Roblox Wiki](https://roblox.fandom.com/wiki/Roblox_Wiki), with credit to its original contributors.
 * This repository is proudly backed by Kaarinaa™.
 > [!WARNING]
