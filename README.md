@@ -6,6 +6,8 @@
 
 This repository contains a curated list of words which appear in the Roblox game [*Spelling Bee*](https://www.roblox.com/games/17590362521). The list is intended to assist players, developers, and educators who want to analyze or interact with the word data for learning, reference, or game strategy purposes.
 
+**Last updated:** November 9, 2025
+
 ---
 
 ## About
