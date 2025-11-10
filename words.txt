@@ -33,6 +33,7 @@ agnostic
 agoraphobia
 agoraphobic
 agriculture
+air
 akin
 albeit
 alliance
@@ -315,6 +316,7 @@ guideline
 handkerchief
 harbor
 harpsichord
+heir
 hello
 hematospectrophotometrically
 hemispherectomy
@@ -748,5 +750,3 @@ zephyr
 zombie
 zoo
 zygote
-air
-heir
