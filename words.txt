@@ -748,3 +748,5 @@ zephyr
 zombie
 zoo
 zygote
+air
+heir
